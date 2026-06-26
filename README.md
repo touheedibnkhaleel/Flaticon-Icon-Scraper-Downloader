@@ -1,14 +1,14 @@
 # Flaticon Icon Scraper & Downloader
 
 A full data pipeline built in Python that scrapes, stores, 
-and downloads 10,000+ icons from Flaticon concurrently.
+and downloads 10,000+ stickers from Flaticon concurrently.
 
 ---
 
 ## Project Structure
 
 flaticon/
-├── main.py          # Scraper — collects icon data
+├── main.py          # Scraper — collects stickers data
 ├── downloader.py    # Downloader — downloads images concurrently  
 ├── db.py            # Database — manages all SQLite operations
 ├── images/          # Downloaded images stored here
@@ -142,5 +142,4 @@ Solution: ThreadPoolExecutor with 5 workers reduced time by 70%.
 ---
 
 ## Author
-Touheed
-Building real projects to learn faster than any course
+Touheed Ur Rehman
